@@ -9,4 +9,4 @@ spring.jpa.properties.hibernate.hbm2ddl.auto=create - rodzaj tworzenia bazy/za k
 spring.datasource.url=jdbc:mysql://localhost:3306/przykladhibernate - stworzona wczesniej baza w MySQL
 spring.datasource.username=root - login do Workbencha
 spring.datasource.password=F2sczk;;e - haslo do Workbencha
-6.
+6. Dodanie klasy TestRepo gdzie sprawdzam dzialanie: a)dodawanie mezczyzn

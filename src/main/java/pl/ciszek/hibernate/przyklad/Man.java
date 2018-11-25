@@ -11,15 +11,19 @@ public class Man {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
     private String name;
     private String surname;
     private int age;
+
+
 
     public Man(String name, String surname, int age) {
         this.name = name;
         this.surname = surname;
         this.age = age;
     }
+
 
     public Man() {
     }
