@@ -21,6 +21,9 @@ public class Man {
         this.age = age;
     }
 
+    public Man() {
+    }
+
     public long getId() {
         return id;
     }

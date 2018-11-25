@@ -5,7 +5,8 @@ Przyklad:
 3. Stworzony konstruktor z parametrami (bez Id nadawanego z automatu) oraz gettery i settery
 4. Dodany interface ManRepo (@Rrepository)
 5. Uzupelnione application.properties:
-spring.jpa.properties.hibernate.hbm2ddl.auto=create - rodzaj tworzenia bazy
+spring.jpa.properties.hibernate.hbm2ddl.auto=create - rodzaj tworzenia bazy/za kazdym uruchominiem apki od nowa
 spring.datasource.url=jdbc:mysql://localhost:3306/przykladhibernate - stworzona wczesniej baza w MySQL
 spring.datasource.username=root - login do Workbencha
 spring.datasource.password=F2sczk;;e - haslo do Workbencha
+6.
