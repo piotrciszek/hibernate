@@ -1,0 +1,11 @@
+Przyklad:
+
+1. Stworzona klasa Man jako @Entity
+2. @Id + @GeneratedValue(strategy = GenerationType.IDENTITY
+3. Stworzony konstruktor z parametrami (bez Id nadawanego z automatu) oraz gettery i settery
+4. Dodany interface ManRepo (@Rrepository)
+5. Uzupelnione application.properties:
+spring.jpa.properties.hibernate.hbm2ddl.auto=create - rodzaj tworzenia bazy
+spring.datasource.url=jdbc:mysql://localhost:3306/przykladhibernate - stworzona wczesniej baza w MySQL
+spring.datasource.username=root - login do Workbencha
+spring.datasource.password=F2sczk;;e - haslo do Workbencha
